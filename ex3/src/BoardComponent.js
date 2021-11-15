@@ -1,7 +1,7 @@
 import React from "react";
 import SquareComponent from "./SquareComponent";
 import "./App.css";
-
+//displays a grid of SquareComponents
 function BoardComponent() {
   const squaresArray = [];
 
