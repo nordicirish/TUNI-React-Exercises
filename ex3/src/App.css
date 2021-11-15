@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+.square {
+  width: 12.5%;
+  /* min-width: 20px; */
+  height: 12.5%;
+  /* min-height: 20px; */
+  /* background-color: white; */
+}
+
+/* .chess-board {
+  width: "500px";
+  height: "500px";
+  display: "flex";
+  flex-wrap: wrap;
+} */
