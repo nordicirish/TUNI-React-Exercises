@@ -1,5 +1,6 @@
 Exercise 5  
 (deadline: November 25, 2021, 23:59 EET)
+
 ● Create a React project using the default template of create-react-app (using the command npx create-react-app ex5). Modify and add 
 necessary files creating a React application featuring at least three separate (logical) "pages" (views) so that
 – they are implemented as separate React components,
