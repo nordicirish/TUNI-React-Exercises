@@ -1,0 +1,44 @@
+{
+  "birds": [
+    {
+      "id": 4,
+      "date": "Mr. Morden",
+      "species": "Hawk"
+    },
+    {
+      "id": 5,
+      "date": "Kosh",
+      "species": "Eagle"
+    },
+    {
+      "id": 6,
+      "date": "Refa",
+      "species": "Dove"
+    },
+    {
+      "id": 7,
+      "date": "Garibaldi",
+      "species": "Hawk"
+    },
+    {
+      "name": "TEST",
+      "species": "TEST_SPECIES",
+      "id": 8
+    },
+    {
+      "name": "TEST",
+      "species": "TEST_SPECIES",
+      "id": 9
+    },
+    {
+      "name": "TEST",
+      "species": "TEST_SPECIES",
+      "id": 10
+    },
+    {
+      "name": "TEST",
+      "species": "TEST_SPECIES",
+      "id": 11
+    }
+  ]
+}

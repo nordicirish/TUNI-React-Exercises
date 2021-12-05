@@ -1,0 +1,24 @@
+{
+  "birds": [
+    {
+      "id": 1,
+      "date": "Mr. Morden",
+      "species": "Hawk"
+    },
+    {
+      "id": 2,
+      "date": "Kosh",
+      "species": "Eagle"
+    },
+    {
+      "id": 3,
+      "date": "Refa",
+      "species": "Dove"
+    },
+    {
+      "id": 4,
+      "date": "Garibaldi",
+      "species": "Hawk"
+    }
+  ]
+}
