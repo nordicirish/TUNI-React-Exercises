@@ -15,7 +15,7 @@ const App = (props) => {
     //stops page reload and other inwanted default behaviour
     const birdObject = {
       species: newBird,
-      date: new Date().toISOString(),
+      date: new Date().toLocaleString(undefined),
       location: newLocation,
       id: birds.length + 1,
     };

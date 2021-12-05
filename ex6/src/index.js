@@ -2,24 +2,31 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-const birds = [
+import axios from "axios";
+
+axios.get("http://localhost:3010/birds").then((response) => {
+  const birds = response.data;
+  ReactDOM.render(<App birds={birds} />, document.getElementById("root"));
+});
+
+/* const birds = [
   {
     id: 1,
     location: "Tampere",
     species: "Hawk",
-    date: "2021-05-30T17:30:31.098Z",
+    date: "05/12/2021, 20:56:53",
   },
   {
     id: 2,
     location: "Kangasala",
     species: "Eagle",
-    date: "2021-06-30T17:30:31.098Z",
+    date: "04/12/2021, 10:56:53",
   },
   {
     id: 3,
     location: "Nokia",
     species: "Hawk",
-    date: "2021-08-30T17:30:31.098Z",
+    date: "03/12/2021, 20:40:23",
   },
 ];
 
@@ -28,7 +35,7 @@ ReactDOM.render(
     <App birds={birds} />
   </React.StrictMode>,
   document.getElementById("root")
-);
+); */
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
