@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App.js";
 import "./index.css";
-import App from "./App";
-import axios from "axios";
+
+/* import axios from "axios"; 
 
 axios.get("http://localhost:3010/birds").then((response) => {
   const birds = response.data;
   ReactDOM.render(<App birds={birds} />, document.getElementById("root"));
-});
+}); */
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 /* const birds = [
   {
